@@ -9,7 +9,6 @@ HEIGHT = 400
 class Window:
     def __init__(self):
         self.direction = 'right'
-        self.end = False
         self.food = []
         self.worm = [[10, 10], [15, 10], [20, 10]]
         self.canvas = tkinter.Canvas(root,
